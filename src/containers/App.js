@@ -7,8 +7,7 @@ import Uploaded from '../components/Uploaded'
 
 import '../assets/styles/App.css'
 
-const App = (props) => {
-  const [image, setImage] = useState()
+const App = () => {
   const [isLoading, setIsLoading] = useState(false)
   const [isUploaded, setIsUploaded] = useState(false)
   const [imageUrl, setImageUrl] = useState()

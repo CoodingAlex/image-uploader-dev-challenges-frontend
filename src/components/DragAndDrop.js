@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useCallback } from 'react'
+import { useCallback } from 'react'
 import '../assets/styles/dragAndDrop.css'
 import image from '../assets/images/image.svg'
 import { useDropzone } from 'react-dropzone'
@@ -31,7 +31,7 @@ const DragAndDrop = (props) => {
       }
     })
   }, [])
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop })
+  const { getRootProps, getInputProps } = useDropzone({ onDrop })
 
   return (
     <div className={'drop_zone'} {...getRootProps()}>
