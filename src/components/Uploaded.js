@@ -9,7 +9,7 @@ const Uploaded = (props) => {
     <div className={'principal-container-uploaded'}>
       <img className={'checkIconImg'} src={checkIcon} alt="check icon" />
       <p className={'uploaded-label'}>Uploaded Successfully!</p>
-      <img src={props.imageUrl} className={'uploaded-img'} alt="image" />
+      <img src={props.imageUrl} className={'uploaded-img'} alt="uploaded" />
       <div className={'container-input-copy'}>
         <input
           type="text"
