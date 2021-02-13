@@ -1,5 +1,24 @@
 .drop_zone {
-  border: 5px solid blue;
-  width: 200px;
-  height: 100px;
+  width: 338px;
+  height: 218.9px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 29.62px;
+  background: #f6f8fb;
+  border: 1px dashed #97bef4;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #bdbdbd;
 }
