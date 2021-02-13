@@ -1,7 +1,5 @@
 import axios from 'axios'
 
-const URL = process.env.API_URL
-
 export function uploadImage(data, config, setters) {
   setters.setIsLoading(true)
   axios
